@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdio.h>
+int main()
+{
+	char i,s[20];
+	int l;
+	printf("enter string name");
+	gets(s);
+	l=strlen(s);
+	printf("length of the string=%d",l);
+	return 0;
+}
